@@ -64,7 +64,7 @@ class CardNumberField extends StatelessWidget {
             buildCounter: buildCounter,
             maxLines: 1,
             style: element.decorationElement?.style ??
-                Theme.of(context).textTheme.bodyText1,
+                Theme.of(context).textTheme.bodySmall,
             textInputAction:
                 nextFocus == null ? TextInputAction.done : TextInputAction.next,
             decoration: Constants.setInputBorder(
@@ -139,7 +139,7 @@ class CardNumberField extends StatelessWidget {
       buildCounter: buildCounter,
       maxLines: 1,
       style: element.decorationElement?.style ??
-          Theme.of(context).textTheme.bodyText1,
+          Theme.of(context).textTheme.bodySmall,
       textInputAction:
           nextFocus == null ? TextInputAction.done : TextInputAction.next,
       decoration: Constants.setInputBorder(

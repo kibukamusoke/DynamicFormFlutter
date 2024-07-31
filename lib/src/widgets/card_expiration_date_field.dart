@@ -258,7 +258,7 @@ class DropdownDateExpiration extends StatelessWidget {
               padding: EdgeInsets.all(0.0),
               child: Text(
                 "${currentYear + index}",
-                style: Theme.of(context).textTheme.bodyText1?.copyWith(
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: isDisabled ? Colors.grey : null,
                     ),
               ),
